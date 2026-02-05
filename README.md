@@ -23,6 +23,7 @@ canbus_benchtest.png
  - 12VDC+ / 2A power source for the radio
  - 3.3VDC+ source for the feather board
  - Connect the 2 CAN lines to the CAN01 HIGH/LOW (NOT CAN02)
+   
 Total: $12
 
 **Wiring**
@@ -37,6 +38,7 @@ You will need to use these
  - PlatformIO (in marketplace)
 
 Once you install PlatformIO and restart VSCode, open the PlatformIO window and select "Pick a folder", to open the project. All the dependencies will be automatically downloaded.
+
 
 
 
