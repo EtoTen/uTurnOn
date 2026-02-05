@@ -14,15 +14,20 @@ In order to bench test, security test and upgrade a uConnect5 unit it is desirab
 ![Screenshot](doc/adafruit_products_Adafruit_RP2040_CAN_Bus_Feather_PrettyPins.jpg)
 
 ![Screenshot](doc/uconnect5_8.4.jpg)
-
+canbus_benchtest.png
 
 **Required Hardware**
 
  - Adafruit_RP2040_CAN_Bus_Feather
  - An FCA UConnect5 unit like the r1low or r1high
- - 12vdc / 2a power source
- 
+ - 12VDC+ / 2A power source for the radio
+ - 3.3VDC+ source for the feather board
+ - Connect the 2 CAN lines to the CAN01 HIGH/LOW (NOT CAN02)
 Total: $12
+
+**Wiring**
+
+ ![Screenshot](doc/canbus_benchtest.png)
 
 
 **Compiling**
